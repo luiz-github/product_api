@@ -17,7 +17,6 @@ export class ProductDTO {
 
 export class ProductByIdDTO {
     @IsNotEmpty()
-    @Transform(({ value }) => Number(value), { toClassOnly: true })
     @IsString()
     id: string
 }
