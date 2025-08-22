@@ -1,9 +1,9 @@
 # Product API
 
-## Descrição:
+### Descrição:
 O projeto consiste no desenvolvimento de uma API RESTful para gerenciamento de produtos, implementando operações CRUD (Create, Read, Update, Delete) e suporte à paginação para melhor desempenho e organização dos dados.
 
-## Requisitos:
+### Requisitos:
 - Node.js
 - Docker
 
