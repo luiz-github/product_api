@@ -61,7 +61,7 @@ O projeto consiste no desenvolvimento de uma API RESTful para gerenciamento de p
 ## Como executar:
 ``` bash
 git clone https://github.com/luiz-github/product_api.git
-git cd product_api
+cd product_api
 npm i
 npm run dev
 ```
