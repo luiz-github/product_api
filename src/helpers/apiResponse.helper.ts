@@ -4,10 +4,9 @@ export interface APIResponse {
     stat_code: number
     stat_message: string
     data?: any
-    pagination?: Record<string, any>
 }
 
-export const apiResponse = (code: number, message: string, data?: any, pagination?: Record<string, any>): APIResponse => {
+export const apiResponse = (code: number, message: string, data?: any): APIResponse => {
     if (assert.isNull(data as any)) {
         return {
             stat_code: code,
@@ -18,7 +17,6 @@ export const apiResponse = (code: number, message: string, data?: any, paginatio
             stat_code: code,
             stat_message: message,
             data: data,
-            pagination: pagination
         }
     }
 }
